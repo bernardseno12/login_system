@@ -3,6 +3,21 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* overflow-x: hidden; */
+}
+#p1{
+    color: red;
+    font-weight: bold;
+}
+#div1{
+    position: relative; left: 80px; top: 60px;
+}
+#div2{
+    position: absolute; left: 90px; top: 135px;
+}
+#p2{
+    color: red;
+    font-weight: bold;
 }
 .card{
     position: relative; left: 490px; top: 300px;
@@ -11,9 +26,10 @@ body{
 }
 #btn{
     background-color: darkgoldenrod;
-    position: relative; left: 620px; top: 155px;
+    position: relative; left: 620px; top: 170px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 #name{
     position: relative; left: 529px; top: 110px;
