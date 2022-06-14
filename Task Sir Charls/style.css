@@ -1,10 +1,38 @@
 body{
-    background-image: url('backgifwindow.gif');
+    background-image: url('backgiffinal.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-img.animated-gif{
-    width:100%;
-    height: auto;
-}    
+.card{
+    position: relative; left: 490px; top: 300px;
+    height: 200px;
+    background-color: black; opacity: .8;
+}
+#btn{
+    background-color: darkgoldenrod;
+    position: relative; left: 620px; top: 155px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name{
+    position: relative; left: 529px; top: 110px;
+    border-radius: 10px;
+}
+#pass{
+    position: relative; left: 540px; top: 140px;
+    border-radius: 10px;
+}  
+#lnamel{
+    position: relative; left: 520px; top: 110px;
+    color: whitesmoke;
+} 
+#lpass{
+    position: relative; left: 530px; top: 140px;
+    color: whitesmoke;
+}
+#sign{
+    position: relative; left: 610px; top: 108px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
